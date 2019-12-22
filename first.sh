@@ -1,0 +1,2 @@
+Myvar="Anandkumarasamy"
+echo $Myvar

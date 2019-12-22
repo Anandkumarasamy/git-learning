@@ -1,0 +1,507 @@
+    1  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    2  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    3  sudo apt-get update
+    4  sudo apt-get install apache2
+    5  sudo apt-get update
+    6  sudo apt-get install apache2
+    7  sudo apache2ctl configtest
+    8  sudo vi /etc/apache2/apache2.conf
+    9  mysql -u root -p
+   10  sudo add-apt-repository ppa:jonathonf/python-3.6
+   11  python3 --version
+   12  py
+   13  python
+   14  python3
+   15  sudo apt-get install python3-pip
+   16  sudo pip3 install virtualenv
+   17  virtualenv djando
+   18  virtualenv django
+   19  source django/bin/activate
+   20  deactivate
+   21  sudo add-apt-repository ppa:webupd8team/atom
+   22  sudo apt-get update
+   23  sudo apt-get install atom
+   24  sudo nano /etc/apache2/apache2.conf
+   25  sudo apache2ctl configtest
+   26  sudo systemctl restart apache2
+   27  sudo ufw app list
+   28  sudo ufw app info "Apache Full"
+   29  sudo ufw allow in "Apache Full"
+   30  http://your_server_IP_address
+   31  ifconfig
+   32  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+   33  sudo apt-get install curl
+   34  curl http://icanhazip.com
+   35  sudo apt-get install mysql-server
+   36  mysql_secure_installation
+   37  apache2 --version
+   38  mysql -version
+   39  mysql -u root -p
+   40  clear
+   41  sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+   42  sudo nano /etc/apache2/mods-enabled/dir.conf
+   43  apache2 -v
+   44  php -v
+   45  mysql -v
+   46  mysql --version 
+   47  sudo systemctl restart apache2
+   48  cd /var/www/html/
+   49  ls
+   50  sudo mkdir new
+   51  cd  new/
+   52  code .
+   53  -u
+   54  --user
+   55  echo  $USER
+   56  ls
+   57  sudo chown -R anand /var/www/
+   58  sudo apt-get update
+   59  sudo apt-get install phpmyadmin php-mbstring php-gettext
+   60  sudo phpenmod mbstring
+   61  sudo systemctl restart apache2
+   62  mysql -u root -p
+   63  sudo apt-get install phpmyadmin php-mbstring php-gettext
+   64  locate phpmyadmin
+   65  cd /etc/phpmyadmin/
+   66  ls
+   67  sudo vi config.inc.php 
+   68  sudo su
+   69  ls
+   70  cd /var/www/html/
+   71  ls
+   72  code .
+   73  sudo apt-get update
+   74  sudo su
+   75  java -version
+   76  sudo apt-get install -y openjdk-8-jre-headless
+   77  java -version
+   78  sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
+   79  sudo apt-get update
+   80  sudo apt-get install -y ubuntu-make
+   81  umake ide pycharm
+   82  umake ide pycharm-professional
+   83  ssource django/bin/activate
+   84  source django/bin/activate
+   85  ls
+   86  cd d_web
+   87  ls
+   88  cd newsproject/
+   89  ls
+   90  python3 manage.py runserver
+   91  cd ..
+   92  cd
+   93  pip install django
+   94  cd newsproject/
+   95  cd d_web/newsproject/
+   96  cd
+   97  cd d_web/newsproject/
+   98  ls
+   99  python3 manage.py runserver
+  100  deactivate
+  101  cd
+  102  pychame -version
+  103  pycharm --version
+  104  sudo apt-get update
+  105  mysql
+  106  mysql -u root -p
+  107  ps -elf
+  108  ps -elf | grep apache
+  109  vi /etc/apache2/apache2.conf 
+  110  vi /var/log/apache2/error.log
+  111  date
+  112  tail -f /var/log/apache2/error.log
+  113  cd /var/www/html/anand/My\ Project/
+  114  ls -ltr
+  115  vimdiff insert.php insert1.html 
+  116  :q
+  117  vim insert1.html 
+  118  vi insert1.html 
+  119  apt-get install dos2linux
+  120  sudo apt-get install dos2linux
+  121  vi insert1.html 
+  122  ls -ltr
+  123  pwd
+  124  cd /var/www/html/anand/
+  125  ls -ltr 
+  126  cd My\ Project/
+  127  l -tlr 
+  128  php edit.php 
+  129  sudo apt-get install apache2 apache2-utils
+  130  wget -c http://wordpress.org/latest.tar.gz
+  131  tar -xzvf latest.tar.gz
+  132  sudo rsync -av wordpress/* /var/www/html/
+  133  sudo chown -R www-data:www-data /var/www/html/
+  134  sudo chmod -R 755 /var/www/html/
+  135  $ mysql -u root -p
+  136  mysql -u root -p
+  137  sudo mv wp-config-sample.php wp-config.php
+  138  mysql -u root -p
+  139  sudo su
+  140  sudo vi /etc/apache2/sites-available/wordpress.conf
+  141  cd /tmp
+  142  curl -O https://wordpress.org/latest.tar.gz
+  143  pwd
+  144  cd /var/www/html/
+  145  ls
+  146  sudo cp index.html index-old.html 
+  147  ls
+  148  sudo mkdir wordpress
+  149  cd wordpress/
+  150  ls
+  151  tar xzvf latest.tar.gz
+  152  curl -O https://wordpress.org/latest.tar.gz
+  153  wget -c http://wordpress.org/latest.tar.gz
+  154  sudo wget -c http://wordpress.org/latest.tar.gz
+  155  tar -xzvf latest.tar.gz
+  156  sudo rsync -av wordpress/* /var/www/html/wordpress
+  157  sudo chown -R www-data:www-data /var/www/html/wordpress
+  158  sudo chmod -R 755 /var/www/html/wordpress
+  159  sudo tar -xzvf latest.tar.gz
+  160  ls
+  161  cd wordpress/
+  162  pwd
+  163  sudo mv *.* /var/www/html/wordpress/
+  164  ls
+  165  sudo mv * /var/www/html/wordpress/
+  166  ls
+  167  cd ..
+  168  ls
+  169  sudo rm -rf wordpress/
+  170  ls
+  171  sudo su -
+  172  sudo chmod -R 777 /var/www/html/
+  173  sudo apt-get install python-software-properties
+  174  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  175  sudo apt-get install nodejs
+  176  node --version
+  177  npm --version
+  178  npm install -g @angular/cli
+  179  sudo npm install -g @angular/cli
+  180  ng --version
+  181  wget https://go.skype.com/skypeforlinux-64.deb
+  182  sudo apt install ./skypeforlinux-64.deb
+  183  sudo apt-get --purge remove skype
+  184  git add .
+  185  pwd
+  186  sudo su
+  187  sudo su -
+  188  code .
+  189  ls
+  190  cd /var/www/html/anand/Employee_detail/
+  191  code .
+  192  git add validation.js 
+  193  sudo su
+  194  ng --version
+  195  node --version
+  196  npm --version
+  197  sudo apt install mono-complete
+  198  mono Fiddler.exe
+  199  pwd
+  200  mono Fiddler.exe
+  201  cd ..
+  202  pwd
+  203  mono Fiddler.exe
+  204  cd ..
+  205  mono Fiddler.exe
+  206  ls
+  207  cd
+  208  sudo su -
+  209  cd Documents/
+  210  ls
+  211  mono Fiddler.exe
+  212  cd fiddler-linux/
+  213  mono Fiddler.exe
+  214  sudo su -
+  215  code .
+  216  date
+  217  apache status
+  218  apache2 status
+  219  restart apache2
+  220  apache2 restart
+  221  sudo apache2 restart
+  222  sudo apache2 -k
+  223  apache2 start
+  224  sudo apache2 status
+  225  clear
+  226  ls
+  227  pwd
+  228  sudo service apache2 status
+  229  cd
+  230  ls
+  231  cd Desktop/
+  232  ls
+  233  cd ..
+  234  cd Documents/
+  235  ls
+  236  cd ..
+  237  cd Desktop
+  238  ls
+  239  cd Python
+  240  ls
+  241  python3 StringCount.py
+  242  ls
+  243  python3 StringDict.py
+  244  ls
+  245  ls-al
+  246  ls-l
+  247  ls-a
+  248  ls -al
+  249  ps -aux
+  250  clear
+  251  ps -U tom
+  252  ps
+  253  sudo yum -y install git
+  254  sudo apt-get update
+  255  sudo apt-get install git
+  256  git config --global user.name "Anandkumarasamy"
+  257  git config --global user.email "anandkumamarasamy90@gmaiil.com"
+  258  git config --list
+  259  git config --global user.name "Anandkumarasamy"
+  260  git config --global user.email "anandkumarasamy90@gmail.com"
+  261  git config --list
+  262  nano ~/.gitconfig
+  263  cd
+  264  pwd
+  265  ls
+  266  clear
+  267  mkdir -p ~/git/phpproject ; cd ~/git/phpproject
+  268  ls
+  269  mkdir testing
+  270  ls
+  271  cd testing
+  272  touch flietest.docx
+  273  ls
+  274  git init
+  275  ls
+  276  cd ..
+  277  rmdir testing
+  278  rmdir -f testing
+  279  ls
+  280  rm -f testing
+  281  rmdir testing
+  282  cd testing
+  283  ls
+  284  rm -f flietest.docx
+  285  ls
+  286  cd ..
+  287  rmdir testing
+  288  ls
+  289  rm -rf testing
+  290  ls
+  291  cd ..
+  292  mv phpproject testing
+  293  ls
+  294  cd testing
+  295  touch sampletesting.txt
+  296  ls
+  297  git init
+  298  ls -al
+  299  ls -lS
+  300  ls
+  301  git add
+  302  la -al
+  303  ls -al
+  304  git add .
+  305  git commit -m "it is my first file"
+  306  git commit -m "it is my first file"sampletesting.txt
+  307  git commit -m "Initial file" -a
+  308  git commit -m "Initial Commit" sampletesting.txt
+  309  cd
+  310  pws
+  311  pwd
+  312  ls
+  313  cd git
+  314  ls
+  315  cd test
+  316  cd testing
+  317  ls -al
+  318  git add .
+  319  git commit -m "file" -a
+  320  git push orgin master
+  321  ls
+  322  ls -a
+  323  pwd
+  324  whoami
+  325  chmod anand:anand *
+  326  sudo chmod anand:anand *
+  327  sudo su
+  328  ls
+  329  mkdir PythonProject
+  330  ls
+  331  cd PythonProject
+  332  touch text1.txt
+  333  touch text2.txt
+  334  ls
+  335  cd PythonProject
+  336  ls
+  337  git init
+  338  ls -al
+  339  git status
+  340  git add .
+  341  git status
+  342  git commit -m "first commit file text1.txt and text2.txt"
+  343  touch text3.py
+  344  git status
+  345  git add text3.py
+  346  ls -ltr 
+  347  git -verdion
+  348  git -version
+  349  git -v
+  350  git
+  351  git --help
+  352  ls -ltr 
+  353  mkdir git-learning
+  354  cd git-learning/
+  355  l -ltr
+  356  ls -ltr 
+  357  cat >1.txt
+  358  cat 1.txt 
+  359  ls -ltra
+  360  git init
+  361  ls -ltra
+  362  cd .git/
+  363  ls -ltr 
+  364  vi config 
+  365  ls -ltr 
+  366  git status 
+  367  cd ../
+  368  git status 
+  369  ls -ltr 
+  370  ls -ltr
+  371  ls -ltra
+  372  git log 
+  373  ls -ltr 
+  374  git status 
+  375  git add 1.txt 
+  376  git status 
+  377  git config --global user.name "Anand"
+  378  git config --global user.email "anand@gmail.com"
+  379  vi .git/config 
+  380  ls -ltr 
+  381  vi .git/config 
+  382  ls -ltr 
+  383  git status 
+  384  git rm --cached 1.txt 
+  385  ls -ltr 
+  386  git status 
+  387  git add .
+  388  git status 
+  389  git commit -m "This is initial commit"
+  390  git status 
+  391  ls -ltr 
+  392  git log
+  393  git log 
+  394  git log --stat
+  395  cat >2.txt
+  396  vi 1.txt 
+  397  ls -ltr 
+  398  git status 
+  399  ls -ltr 
+  400  git checkout 1.txt
+  401  git status 
+  402  git add .
+  403  git status 
+  404  git commit -m " This is a second commit"
+  405  git status 
+  406  git log 
+  407  git status 
+  408  git log --stat
+  409  git diff 
+  410  vi 1.txt 
+  411  git diff 
+  412  git status 
+  413  git add 1.txt 
+  414  git status 
+  415  git diff 1.txt
+  416  git diff --staged 1.txt
+  417  ls -ltr 
+  418  cd .git/
+  419  ls -ltr 
+  420  cat index 
+  421  ls -ltr 
+  422  l d-tlr 
+  423  ls -ltr 
+  424  ls -ltr
+  425  git diff HEAD~1
+  426  cd ../
+  427  git diff HEAD~1
+  428  git diff HEAD~2
+  429  git loh 
+  430  git log
+  431  git remote
+  432  git remote -v
+  433  git remote add git-learning https://github.com/Anandkumarasamy/git-learning.git
+  434  git push git-learning master
+  435  ls
+  436  cd git-learning/
+  437  l
+  438  ls
+  439  cat 1.txt
+  440  cat 2.txt
+  441  cat > 2.txt
+  442  cat 2.txt
+  443  cat -b 2.txt
+  444  cat -n 2.txt
+  445  cat 1.txt
+  446  cat > 1.txt
+  447  cat 1.txt
+  448  cat  >> 1.txt
+  449  cat 1.txt
+  450  cat 2.txt
+  451  cat -s 2.txt
+  452  cat -s 1.txt
+  453  ls
+  454  mkdir copy
+  455  ls
+  456  cp 1.txt copy
+  457  Cd copy
+  458  ls
+  459  cp -i 1.txt 2.txt copy
+  460  cd copy
+  461  ls
+  462  cat 1.
+  463  cat 1.txt
+  464  cat 2.txt
+  465  cp 2.txt 1.txt
+  466  cat 2.txt
+  467  cat 1.txt
+  468  cat > 1.txt
+  469  cat 1.txt
+  470  cat 2.txt
+  471  cp 2.txt >> 1.txt
+  472  ls
+  473  ls -al
+  474  ls
+  475  cd git-learning/
+  476  ls
+  477  cat 1.txt
+  478  cat 2.txt
+  479  cd copy
+  480  ls
+  481  cat 1.txt
+  482  cat 2.txt
+  483  cp 2.txt 3.txt
+  484  ls
+  485  cat 3.txt
+  486  rm -rf 2.txt
+  487  ls
+  488  mv 1.txt 4.txt
+  489  ls
+  490  mv 3.txt 4.txt git-learning
+  491  mv 3.txt git-learning
+  492  mv 4.txt git-learning
+  493  cd ..
+  494  ls
+  495  cd copy
+  496  ls
+  497  rm -rf git-learning
+  498  ls
+  499  cd ..
+  500  rm fr copy/
+  501  rm -fr copy/
+  502  ls
+  503  history
+  504  ls
+  505  history > 3.txt
+  by 
+Anand Kumarasamy

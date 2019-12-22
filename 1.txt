@@ -1,1 +1,2 @@
-this is a first file
+my nane is git, i am a version contorl system
+by 
